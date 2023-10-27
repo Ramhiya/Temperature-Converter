@@ -12,7 +12,7 @@
         }
         
         h1 {
-            color:#C70039;
+            color:red;
         }
 
         .container {
@@ -21,7 +21,7 @@
             padding: 50px;
             border: 1px solid #ccc;
             border-radius: 10px;
-            background-color:white;
+            background-color: white;
         }
 
         label {
@@ -79,7 +79,7 @@
                 const celsius = (fahrenheit - 32) * 5/9;
                 resultDiv.innerText = `${fahrenheit} Fahrenheit is equal to ${celsius.toFixed(2)} Celsius.`;
             } else {
-                resultDiv.innerText = 'Please enter a temperature value.';
+                resultDiv.innerText = 'Please enter a valid value.';
             }
         }
     </script>
